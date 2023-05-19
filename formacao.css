@@ -1,0 +1,97 @@
+.formação {
+  width: 100vw;
+  background-color: #141414;
+}
+.formação-display {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 8rem;
+  padding: 10rem 4rem;
+}
+.formação-display .subtitulo {
+  color: black;
+}
+.formação-introdução {
+  color: aliceblue;
+}
+.formação-introdução {
+  font-size: 1.5rem;
+  max-width: 40ch;
+  color: #d9d9d9;
+  line-height: 1.3;
+  font-weight: 400;
+}
+.formação-introdução strong {
+  color: #fff;
+  font-weight: 900;
+}
+.Formação-lista {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.Formação-lista ol {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1rem;
+  justify-content: space-between;
+  background-color: black;
+}
+.formação-nivel {
+  font-size: 0.875rem;
+  color: #a3a3a3;
+  margin-bottom: 0.625rem;
+}
+.formação-nome {
+  color: #fff;
+  height: 100%;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.formação-instituicao {
+  font-size: 1.125rem;
+  color: #a3a3a3;
+  margin-top: 3.125rem;
+  text-transform: uppercase;
+}
+.cursos {
+  margin-top: 3.75rem;
+}
+.linguagem {
+  margin-top: 3.75rem;
+}
+.curso-nome {
+  color: #fff;
+  height: 100%;
+  line-height: 2rem;
+  font-size: 1.125rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+}
+.formação-nivel {
+  margin-bottom: 20px;
+}
+.lingua-nome {
+  color: #fff;
+  height: 100%;
+  line-height: 2rem;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.lingua-nome span {
+  color: #8f8f8f;
+}
+@media (max-width: 800px) {
+  .formação-display {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem 4rem;
+  }
+}

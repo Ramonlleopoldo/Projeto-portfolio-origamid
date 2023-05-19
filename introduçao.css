@@ -1,0 +1,44 @@
+.introdução {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 8rem;
+  padding: 4rem 4rem;
+}
+.introdução-texto {
+  font-size: 3rem;
+  line-height: 6rem;
+}
+.introdução-texto h1 {
+  font-weight: 900;
+  color: black;
+}
+@media (max-width: 1200px) {
+  .introdução-texto {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+}
+@media (max-width: 800px) {
+  .introdução {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .introdução-texto {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .introdução {
+    grid-template-columns: 1fr;
+    padding: 2rem 4rem;
+  }
+  .introdução-foto {
+    display: none;
+  }
+  .introdução br {
+    display: none;
+  }
+}
